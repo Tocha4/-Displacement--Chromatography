@@ -14,3 +14,7 @@ Tool and GUI to simulate a (displacement) chromatography column.
 Befor running the _Chromatography_Simulator.py_ file, open a **cmd** in _...Calculation/cython_functions_ and execute:
 
 >.../cython_functions$  ```python setup.py build_ext --inplace```
+
+
+# GUI
+![Cromatography Simulator GUI](https://raw.githubusercontent.com/Tocha4/-Displacement--Chromatography/master/GUI.png)
