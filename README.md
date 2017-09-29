@@ -4,7 +4,9 @@ Tool and GUI to simulate a (displacement) chromatography column.
 ## Used versions:
 
 Linux 16.04 LTS 
+
 Python 3.6.1 | Anaconda 4.4.0 
+
 numpy 1.12.1 
 matplotlib 2.0.2 
 distutils 3.6.1 
