@@ -19,6 +19,6 @@ Cython 0.25.2
 
 Befor running the Chromatography_Simulator.py file, open a cmd in ...Calculation/cython_functions and execute:
 
-'''
+```
 .../cython_functions$ python setup.py build_ext --inplace
-'''
+```
