@@ -1,6 +1,8 @@
 # -Displacement--Chromatography
 Tool and GUI to simulate a (displacement) chromatography column.
 
+
+
 ## Used versions:
 
 * Linux 16.04 LTS 
@@ -18,3 +20,6 @@ Befor running the _Chromatography_Simulator.py_ file, open a **cmd** in _...Calc
 
 # GUI
 ![Cromatography Simulator GUI](https://raw.githubusercontent.com/Tocha4/-Displacement--Chromatography/master/GUI.png)
+
+### The following equation is solved
+![mass balance](https://raw.githubusercontent.com/Tocha4/-Displacement--Chromatography/master/mass_balance.png)
