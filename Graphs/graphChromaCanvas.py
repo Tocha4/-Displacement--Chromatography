@@ -20,10 +20,10 @@ class PlotCanvas_Chrom(FigureCanvas):
     def new_plot(self,num_components,x_axes,C,q,n,concentration, dz, showAll):
         bx = self.figure.add_subplot(111)
         if showAll == 0:
-            bx.plot(x_axes, C[:n,-2,:].sum(axis=1)+q[:n,-2,:].sum(axis=1))
+            bx.plot(x_axes, C[:n,-2,:].sum(axis=1)+q[:n,-2,:].sum(axis=1), linewidth=4)
         else:
             for i in num_components:        
-                bx.plot(x_axes, C[:n,-2,i]+q[:n,-2,i]) #, label='Komponente {}'.format(i)
+                bx.plot(x_axes, C[:n,-2,i]+q[:n,-2,i], linewidth=4) #, label='Komponente {}'.format(i)
         bx.set_xlim([0,dz]) 
         bx.set_ylim([0,concentration])
         bx.set_xlabel('Time [sec]', size=7)

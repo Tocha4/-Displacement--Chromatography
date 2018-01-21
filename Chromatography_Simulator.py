@@ -5,6 +5,7 @@ from Graphs.Popup_ai import popup
 from fa_02 import App
 import sys
 import numpy as np
+import seaborn as sns; sns.set()
 
 
 class main(App):
@@ -60,7 +61,7 @@ class main(App):
         else: pass
         
 if __name__ =='__main__':
-    
+    # lets test some stuff
     app = QApplication.instance()
     if app == None:
         app = QApplication(sys.argv)

@@ -21,7 +21,7 @@ class PlotCanvas(FigureCanvas):
     def new_plot(self,num_components,col,C,q,n,concentration):
         bx = self.figure.add_subplot(111)
         for i in num_components:
-            bx.plot(col, C[n,:-1,i]+q[n,:-1,i], label='Komponente {}'.format(i))
+            bx.plot(col, C[n,:-1,i]+q[n,:-1,i], label='Komponente {}'.format(i), linewidth=4)
             
         bx.set_ylim([0,concentration])
         bx.grid(True, color='k', linestyle='--', linewidth='0.4')
