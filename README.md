@@ -19,7 +19,7 @@ Befor running the _Chromatography_Simulator.py_ file, open a **cmd** in _...Calc
 
 
 # GUI
-![Cromatography Simulator GUI](https://raw.githubusercontent.com/Tocha4/-Displacement--Chromatography/master/GUI1.png)
+![Cromatography Simulator GUI](https://raw.githubusercontent.com/Tocha4/-Displacement--Chromatography/master/cs.png)
 
 ### The following equation is solved
 ![mass balance](https://raw.githubusercontent.com/Tocha4/-Displacement--Chromatography/master/mass_balance.png)
