@@ -12,7 +12,7 @@ Auf der recheten Seite kann das Ergebniss eienr Simulation in den beiden Plots a
 
 Um die graphische Oberfläche zu starten, öffne eine _Comand-Line_ in dem Ordner mit __Chromatography_Simulator.py__ und führe ```python Chromatography_Simulator.py``` aus.
 
-![Cromatography Simulator GUI](https://raw.githubusercontent.com/Tocha4/-Displacement--Chromatography/master/cs.png)
+![Cromatography Simulator GUI](https://raw.githubusercontent.com/Tocha4/-Displacement--Chromatography/master/dcs.gif)
 
 # Lösung der Gleichung
 Um die unten dargestellt Gleichung effektiv lösen zu können, habe ich die Bibliothek ```Cython``` verwendent. Es hat sich gezeigt, dass einfache Simulationen mit ```numpy``` relativ schnell durchgeführt werden können. Sobald aber die Anzahl der Komponenten steigt und die Säulen größer werden, steigt die Berechungungszeit. Mit ```Cython``` habe ich die rechenintensiven Berechnungen in kompilierten Funktionen ausgelagert. Damit habe ich eine Erhöhung der Berechungsgeschwindigkeit um den Faktor _x6_ erreicht. 
